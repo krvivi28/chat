@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Playfair+Display:ital@1&family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: linear-gradient(grey, #222); */
+    background-color: #222;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #17141452;
+    /* border: 2px solid red; */
+    /* width: 70%; */
+}
+
+
+/* .navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.7;
+} */
+
+.logo img {
+    margin: 1px 38px;
+    height: 48px;
+    width: 108px;
+    padding: 7px 9px;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 13px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    /* margin-top: 3px; */
+    width: 40%;
+    height: 60vh;
+    margin: 48px auto;
+    background-color: black;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.message {
+    border-radius: 3px;
+    background-color: rgb(104, 32, 32);
+    width: 24%;
+    padding: 5px 5px;
+    margin: 5px 2px;
+}
+
+.left {
+    width: 250px;
+    color: azure;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(90, 88, 88);
+    /* width: 24%; */
+    padding: 5px 5px;
+    margin: 5px 2px;
+    float: left;
+    clear: both;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Baloo 2', cursive;
+}
+
+.right {
+    width: 250px;
+    /* display: inline-block; */
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(2, 112, 26);
+    /* width: 24%; */
+    padding: 5px 5px;
+    margin: 5px 2px;
+    float: right;
+    clear: both;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Baloo 2', cursive;
+}
+
+
+/* #send-container {
+    display: block;
+    max-width: 768px;
+    text-align: center;
+    margin: auto;
+} */
+
+#messageInp {
+    border-radius: 8px;
+    width: 620px;
+    height: 28px;
+    background: black;
+    /* margin: 3px 10px; */
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    height: 25px;
+}
+
+.send i {
+    width: 25px;
+    text-align: center;
+    filter: invert(1);
+    margin-left: 1px;
+}
+
+.send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 60%; */
+    /* margin: 12px 12px; */
+    /* margin-top: 20px; */
+}
+
+input {
+    background: transparent;
+}
+
+h2 {
+    background-color: #252323;
+    color: rgb(14 161 62);
+    padding: 5px;
+    margin: 0 27px;
+    font-weight: bold;
+    font-family: 'Baloo 2', cursive;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+#btn {
+    width: 55px;
+    padding: 0px 0px;
+    text-align: center;
+    margin: 4px -3px;
+    border-radius: 6px;
+    /* font-weight: bold; */
+    /* border: 3px solid rgb(247, 240, 247); */
+    background-color: black;
+    cursor: pointer;
+    /* position: relative; */
+    color: #03a9f4;
+    font-family: 'Baloo 2', cursive;
+    font-size: 14px;
+}
